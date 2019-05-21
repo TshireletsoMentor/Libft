@@ -6,11 +6,13 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 14:49:35 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/21 15:09:42 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/21 15:17:44 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char		ft_strcat(char *s1, char *s2)
+#include <string.h>
+
+char	*ft_strcat(char *s1, char *s2)
 {
 	int i;
 	int j;
@@ -19,7 +21,7 @@ char		ft_strcat(char *s1, char *s2)
 	j = 0;
 	if (s1 == NULL)
 	{
-		return (NULL)
+		return (NULL);
 	}
 	while (s1[i] != '\0')
 	{
