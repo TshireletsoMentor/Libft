@@ -6,20 +6,22 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 14:30:47 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/20 15:11:25 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/21 15:59:34 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char		ft_strncpy(char *dst, const char *src, unsigned int n)
+#include <string.h>
+
+char		*ft_strncpy(char *dst, const char *src, size_t n)
 {
-	unsigned int i;
+	int i;
 
 	i = 0;
-	while (src[i] != '\0' && i < n)
+	while (src[i] != '\0' && i < (int)n)
 	{
 		dst[i] = src[i];
 		i++;
 	}
 	dst[i] = '\0';
-	return (*dst);
+	return (dst);
 }
