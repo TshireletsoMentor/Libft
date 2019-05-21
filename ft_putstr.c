@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 void		ft_putstr(char *str)
 {
 	int i;
@@ -17,6 +19,7 @@ void		ft_putstr(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
+		write(1, &c, 1);
 		i++;
 	}
 }
