@@ -6,11 +6,11 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 12:17:15 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/21 13:26:46 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/22 15:43:33 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t		ft_strlen(char *str)
+unsigned int		ft_strlen(const char *str)
 {
 	int i;
 
@@ -19,5 +19,5 @@ size_t		ft_strlen(char *str)
 	{
 		i++;
 	}
-	return (size_t(i));
+	return (i);
 }
