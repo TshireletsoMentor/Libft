@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 15:42:48 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/21 15:55:53 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/22 15:33:44 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ char		*ft_strncat(char *s1, char *s2, size_t n)
 
 	i = 0;
 	j = 0;
-	if (s1[i] == NULL)
+	if (s1 == NULL)
 	{
-		rteturn (NULL);
+		return (NULL);
 	}
 	while (s1[i] != '\0')
 	{
