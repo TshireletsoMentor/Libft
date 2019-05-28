@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/28 09:19:21 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/28 12:09:06 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/28 12:34:37 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	{
 		if (us[i] == uc)
 		{
-			return ((void *)&us[i])
+			return ((void *)&us[i]);
 		}
 		i += 1;
 	}
