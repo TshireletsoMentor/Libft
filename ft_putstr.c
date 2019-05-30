@@ -6,20 +6,23 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 14:50:40 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/30 10:39:40 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/30 10:50:36 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void		ft_putstr(char *str)
+void		ft_putstr(char const *str)
 {
 	int i;
 
 	i = 0;
-	while (str[i] != '\0')
+	if (str)
 	{
-		write(1, &str[i], 1);
-		i++;
+		while (str[i] != '\0')
+		{
+			write(1, &str[i], 1);
+			i++;
+		}
 	}
 }
