@@ -6,11 +6,11 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 14:16:11 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/20 15:10:52 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/30 11:33:44 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char		ft_strcpy(char *dst, const char *src)
+char		*ft_strcpy(char *dst, const char *src)
 {
 	int i;
 
@@ -21,5 +21,5 @@ char		ft_strcpy(char *dst, const char *src)
 		i++;
 	}
 	dst[i] = '\0';
-	return (*dst);
+	return (dst);
 }
