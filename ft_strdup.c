@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 11:32:22 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/30 10:05:25 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/30 10:07:33 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strdup(const char *src)
 	{
 		i++;
 	}
-	if (!(dst = (char *)malloc(sizeof(src) * 1 + i)))
+	if (!(dst = (char *)malloc(sizeof(src) * i + 1)))
 	{
 		return (NULL);
 	}
@@ -32,5 +32,6 @@ char	*ft_strdup(const char *src)
 		dst[i] = src[i];
 		i++;
 	}
+	dst[i] = '\0';
 	return (dst);
 }
