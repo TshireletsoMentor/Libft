@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 10:59:40 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/30 11:01:16 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/30 11:11:38 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,16 @@
 
 void		ft_putendl(char const *str)
 {
-	ft_putstr(str);
+	int i;
+
+	i = 0;
+	if (str)
+	{
+		while (str[i] != '\0')
+		{
+			write(1, &str[i], 1);
+			i++;
+		}
+	}
 	write(1, "\n", 1);
 }
