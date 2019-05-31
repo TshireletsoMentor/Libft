@@ -6,11 +6,11 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 10:27:28 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/30 10:27:33 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/31 15:52:18 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Libft.h"
+#include "libft.h"
 
 int	ft_iswspace(int c)
 {

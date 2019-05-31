@@ -6,11 +6,11 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 07:22:55 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/31 09:03:48 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/31 15:56:39 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Libft.h"
+#include "libft.h"
 
 void		ft_memdel(void **ap)
 {

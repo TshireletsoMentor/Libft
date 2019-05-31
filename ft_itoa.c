@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/31 09:04:48 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/31 15:35:51 by tmentor          ###   ########.fr       */
+/*   Created: 2019/05/31 15:54:16 by tmentor           #+#    #+#             */
+/*   Updated: 2019/05/31 15:54:32 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Libft.h"
+#include "libft.h"
 
 static int	ft_len(long n)
 {
