@@ -6,16 +6,16 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 09:04:48 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/31 10:51:01 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/31 15:35:51 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Libft.h"
 
-static int		ft_len(long n)
+static int	ft_len(long n)
 {
-	long x;
-	size_t i;
+	long	x;
+	size_t	i;
 
 	x = n;
 	i = 0;
