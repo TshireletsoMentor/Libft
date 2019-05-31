@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 06:44:19 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/31 06:53:34 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/31 10:49:08 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void		ft_putnbr_fd(int n, int fd)
 	}
 	else
 	{
-		ft_putnbr_fd((n / 10, fd);
-		ft_putnbr_fd((n % 10, fd);
+		ft_putnbr_fd((n / 10), fd);
+		ft_putnbr_fd((n % 10), fd);
 	}
 }

@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 09:28:00 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/31 10:04:18 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/05/31 10:47:45 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	**ft_strsplit(char const *s, char c)
 		while (s[i] == c)
 			i++;
 		while (s[i] != c && s[i])
-			new[n][z++] = s[I++];
+			new[n][z++] = s[i++];
 		new[n][z] = '\0';
 		n++;
 	}
