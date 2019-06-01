@@ -6,11 +6,11 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 06:28:36 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/31 10:03:41 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/06/01 11:40:03 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Libft.h"
+#include "libft.h"
 
 size_t		ft_wordlen(const char *str, char c)
 {

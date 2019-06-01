@@ -6,9 +6,11 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 16:07:03 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/30 09:30:10 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/06/01 11:39:32 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char		ft_toupper(unsigned char c)
 {
