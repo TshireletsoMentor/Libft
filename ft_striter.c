@@ -6,11 +6,11 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 12:49:05 by tmentor           #+#    #+#             */
-/*   Updated: 2019/05/31 15:02:39 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/06/01 11:29:22 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Libft.h"
+#include "libft.h"
 
 void	ft_striter(char *s, void (*f)(char *))
 {
