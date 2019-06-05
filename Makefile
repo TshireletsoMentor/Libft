@@ -20,13 +20,14 @@ SOURCES = *.c
 
 OBJECTS = *.o
 
+LIB = libft.h
+
 all: $(NAME)
 
 $(NAME):
-	$(CC) $(CFLAGS) -c $(SOURCES)
-	ar rc $(NAME) $(SOURCES)
+	$(CC) $(CFLAGS) -c $(SOURCES) -I $(LIB)
+	ar rc $(NAME) $(OBJECTS)
 	ranlib $(NAME)
-	rm -f $(OBJECTS)
 
 clean:
 	rm -f $(OBJECTS)
