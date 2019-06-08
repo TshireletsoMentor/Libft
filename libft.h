@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:58:31 by tmentor           #+#    #+#             */
-/*   Updated: 2019/06/08 11:06:59 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/06/08 14:46:25 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,15 +32,18 @@ void			ft_putstr_fd(const char *str, int fd);
 char			*ft_strcat(char *s1, char *s2);
 size_t			ft_strlcat(char *dst, const char *src, size_t dstsize);
 char			*ft_strchr(const char *s1, int s2);
-int				ft_strcmp(char *s1, char *s2);
+int				ft_strcmp(const char *s1, const char *s2);
 char			*ft_strcpy(char *dst, const char *src);
-int				ft_strequ(char const *s1, char const *s2, size_t n);
+int				ft_strequ(char const *s1, char const *s2);
 size_t			ft_strlen(const char *str);
 void			ft_strclr(char *s);
 char			*ft_strncat(char *s1, char *s2, size_t n);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 char			*ft_strncpy(char *dst, const char *src, size_t n);
 char			*ft_strnstr(const char *s1, const char *s2, size_t n);
+void			ft_striter(char *s, void (*f)(char *));
+void			ft_striteri(char *s, void (*f)(unsigned int, char *));
+int				ft_strequ(char const *s1, char const *s2);
 char			*ft_strrchr(const char *s1, int n);
 char			*ft_strstr(const char *s1, const char *s2);
 char			**ft_strsplit(char const *s, char c);
