@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:58:31 by tmentor           #+#    #+#             */
-/*   Updated: 2019/06/08 14:56:06 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/06/08 15:31:35 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ char			*ft_strncpy(char *dst, const char *src, size_t n);
 char			*ft_strnstr(const char *s1, const char *s2, size_t n);
 void			ft_striter(char *s, void (*f)(char *));
 void			ft_striteri(char *s, void (*f)(unsigned int, char *));
+char			*ft_strsub(char const *s, unsigned int start, size_t len);
 int				ft_strequ(char const *s1, char const *s2);
 char			*ft_strrchr(const char *s1, int n);
 char			*ft_strstr(const char *s1, const char *s2);
