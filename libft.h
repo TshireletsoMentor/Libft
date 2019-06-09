@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:58:31 by tmentor           #+#    #+#             */
-/*   Updated: 2019/06/08 15:31:35 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/06/09 12:36:12 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void			ft_putendl(char const *str);
 void			ft_putendl_fd(char const *str, int fd);
 void			ft_putstr(char const *str);
 void			ft_putstr_fd(const char *str, int fd);
-char			*ft_strcat(char *s1, char *s2);
+char			*ft_strcat(char *s1, const char *s2);
 size_t			ft_strlcat(char *dst, const char *src, size_t dstsize);
 char			*ft_strchr(const char *s1, int s2);
 int				ft_strcmp(const char *s1, const char *s2);
@@ -45,6 +45,8 @@ char			*ft_strnstr(const char *s1, const char *s2, size_t n);
 void			ft_striter(char *s, void (*f)(char *));
 void			ft_striteri(char *s, void (*f)(unsigned int, char *));
 char			*ft_strsub(char const *s, unsigned int start, size_t len);
+char			*ft_strtrim(char const *s);
+char			*ft_strjoin(char const *s1, char const *s2);
 int				ft_strequ(char const *s1, char const *s2);
 char			*ft_strrchr(const char *s1, int n);
 char			*ft_strstr(const char *s1, const char *s2);
