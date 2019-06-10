@@ -6,7 +6,7 @@
 /*   By: tmentor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:58:31 by tmentor           #+#    #+#             */
-/*   Updated: 2019/06/09 12:36:12 by tmentor          ###   ########.fr       */
+/*   Updated: 2019/06/10 12:23:13 by tmentor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,8 +54,8 @@ char			**ft_strsplit(char const *s, char c);
 char			*ft_strmap(char const *s, char (*f)(char));
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char			*ft_strnew(size_t size);
-char			ft_tolower(unsigned char c);
-char			ft_toupper(unsigned char c);
+int				ft_tolower(int c);
+int				ft_toupper(int c);
 void			ft_bzero(void *s, size_t n);
 void			*ft_memchr(const void *s, int c, size_t n);
 int				ft_memcmp(const void *s1, const void *s2, size_t n);
