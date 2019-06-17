@@ -6,7 +6,7 @@
 #    By: tmentor <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/23 10:16:38 by tmentor           #+#    #+#              #
-#    Updated: 2019/06/17 08:41:05 by tmentor          ###   ########.fr        #
+#    Updated: 2019/06/17 11:53:31 by tmentor          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,6 +40,16 @@ SOURCES = ft_atoi.c \
 			ft_putendl_fd.c \
 			ft_putnbr.c \
 			ft_putnbr_fd.c \
+			ft_putstr.c \
+			ft_putstr_fd.c \
+			ft_strcat.c \
+			ft_strchr.c \
+			ft_strclr.c \
+			ft_strcmp.c \
+			ft_strcpy.c \
+			ft_strdel.c \
+			ft_strdup.c \
+			ft_strequ.c \
 			ft_striter.c \
 			ft_striteri.c \
 			ft_strjoin.c \
@@ -63,7 +73,7 @@ SOURCES = ft_atoi.c \
 			ft_wordcount.c \
 			ft_wordlen.c \
 
-OBJECTS = $(SOURCES:%.c%=.o)
+OBJECTS = $(SOURCES:%.c=%.o)
 
 LIB = libft.h
 
